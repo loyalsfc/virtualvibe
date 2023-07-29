@@ -27,8 +27,10 @@ function Footer() {
                         <NavigationsWrapper title='Stay In The Loop'>
                             <p className="font-switzer mb-[22px] leading-normal">Join our mailing list to stay in the loop with our newest for Event and concert</p>
                             <div className='bg-white p-2 text-[12.5px] flex items-center'>
-                                <input type="text" placeholder='Enter your email address..' className='bg-transparent text-[#959595] px-3 flex-1 placeholder:text-[#959595] placeholder:font-switzer focus:outline-none' />
-                                <button className="bg-orange font-bold tracking-[0.79px] leading-normal py-[15px] px-4 md:px-[30px]">Subscribe Now</button>
+                                <div className='flex-1'>
+                                    <input type="text" placeholder='Enter your email address..' className='bg-transparent text-[#959595] px-1 md:px-3 w-full placeholder:text-[#959595] placeholder:font-switzer focus:outline-none' />
+                                </div>
+                                <button className="bg-orange font-bold tracking-[0.79px] leading-normal shrink-0 py-3 sm:py-[15px] px-2 sm:px-4 md:px-[30px] whitespace-nowrap">Subscribe Now</button>
                             </div>
                         </NavigationsWrapper>
 

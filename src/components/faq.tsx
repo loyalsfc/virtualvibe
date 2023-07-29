@@ -29,7 +29,7 @@ function Faq() {
     return (
         <section className='pb-20 md:pb-[169px] px-4 md:px-0'>
             <div className="container mx-auto">
-                <div className="max-w-[1191px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-36">
+                <div className="max-w-[1191px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-36">
                     <article>
                         <span className='grid place-content-center w-fit p-6 mb-8 md:mb-[3.75rem] bg-[#F2F4FF] rounded-xl'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="30" viewBox="0 0 31 30" fill="none">
@@ -59,7 +59,7 @@ function Questions({number, title}:{number:string, title: string}){
 
     return (
         <li className='border border-[#0A075F] p-2 md:p-5 mb-[22px] last:mb-0'>
-            <h4 onClick={showAnswer} className='text-cc-300 font-dm-sans cursor-pointer leading-normal flex items-center gap-4 md:gap-[22px]'>
+            <h4 onClick={showAnswer} className='text-cc-300 text-sm lg:text-base font-dm-sans cursor-pointer leading-normal flex items-center gap-4 md:gap-[22px]'>
                 <span className='w-[30.5px] border-r border-cc-200'>{number}</span>
                 <span>{title}</span>
                 <span className='ml-auto text-xl'>+</span>

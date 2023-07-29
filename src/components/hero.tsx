@@ -5,7 +5,7 @@ function Hero() {
     return (
         <section className='pt-8 pb-20 px-4 md:px-0'>   
             <div className="container mx-auto flex flex-col md:flex-row gap-12 md:gap-0">
-                <article className='md:w-1/3 shrink-0 pt-10 text-center md:text-left'>
+                <article className='md:w-1/3 shrink-0 md:pt-10 text-center md:text-left'>
                     <h1 className='text-cc-400 text-3xl lg:text-5xl font-bold mb-[22px]'>Unleash the Power of Virtual Networking</h1>
                     <p className='text-lg lg:text-xl font-dm-sans m-8 md:mb-[55px]'>Secure Your Spot for a Journey into Innovation, Inspiration, and Impact from the comfort of your home</p>
 

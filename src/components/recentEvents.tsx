@@ -42,12 +42,12 @@ const recents_events = [
 
 function RecentEvents() {
     return (
-        <section className='pt-24 pb-20 px-4 md:px-0'>
-            <div className="container mx-auto flex flex-col md:flex-row gap-20">
+        <section className='pt-12 md:pt-24 pb-10 md:pb-20 px-4 md:px-0'>
+            <div className="container mx-auto flex flex-col md:flex-row gap-10 lg:gap-20">
                 <h2 className='text-cc-300 text-xl md:text-3xl font-bold'>
-                    RECENT <br /> EVENTS
+                    <span className='md:block'>RECENT</span> EVENTS
                 </h2>
-                <ul className='font-switzer flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 mb-16'>
+                <ul className='font-switzer flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9 mb-16'>
                     {recents_events.map(item => {
                         return (
                             <Events

@@ -26,7 +26,7 @@ function Header() {
                     </svg>
                 </button>
             </div>
-            <div className={`transition-all fixed ${showMobileNav ? 'top-0' : "-left-full"} left-0 w-full h-screen px-4 z-50 bg-white md:hidden flex flex-col items-center justify-center`}>
+            <div className={`transition-all fixed ${showMobileNav ? 'left-0' : "-left-full"} top-0 w-full h-screen px-4 z-50 bg-white md:hidden flex flex-col items-center justify-center`}>
                 <button onClick={()=>setShowMobileNav(false)} className="absolute right-4 top-4 p-2 hover:bg-orange/30 rounded-md">
                     <svg className=' rotate-45' width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fillRule="evenodd" clipRule="evenodd" d="M10 3.33325C10.4603 3.33325 10.8334 3.70635 10.8334 4.16659V15.8333C10.8334 16.2935 10.4603 16.6666 10 16.6666C9.53978 16.6666 9.16669 16.2935 9.16669 15.8333V4.16659C9.16669 3.70635 9.53978 3.33325 10 3.33325Z" fill="#061428"/>

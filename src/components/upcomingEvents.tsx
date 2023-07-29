@@ -46,8 +46,8 @@ function UpcomingEvents() {
             <div className="container mx-auto">
                 <div className="max-w-[1118px] mx-auto">
                     <div className='mb-8 md:mb-20 flex gap-4 md:gap-0 flex-col sm:flex-row justify-between items-center'>
-                        <h2 className='text-xl md:text-[2.5rem] font-bold text-cc-300'>UPCOMING EVENTS</h2>
-                        <div className='flex gap-1 md:gap-5'>
+                        <h2 className='text-xl md:text-3xl lg:text-[2.5rem] font-bold text-cc-300'>UPCOMING EVENTS</h2>
+                        <div className='flex gap-1 md:gap-4 lg:gap-5'>
                             <Filters>
                                 <option value="">Weekdays</option>
                             </Filters>
@@ -59,7 +59,7 @@ function UpcomingEvents() {
                             </Filters>
                         </div>
                     </div>
-                    <ul className='font-switzer grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 mb-16'>
+                    <ul className='font-switzer grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 mb-8 md:mb-16'>
                         {upcoming_events.map(item => {
                             return (
                                 <Events
@@ -70,7 +70,7 @@ function UpcomingEvents() {
                                 />
                             )})}
                     </ul>
-                    <button className='border-[1.5px] border-cc-200 shadow-btn py-[18px] px-[45px] font-dm-sans text-cc-300 font-bold text-lg block mx-auto hover:bg-cc-200 hover:text-white transition-all'>
+                    <button className='border-[1.5px] border-cc-200 shadow-btn py-2 md:py-[18px] px-8 sm:px-[45px] font-dm-sans text-cc-300 font-bold text-lg block mx-auto hover:bg-cc-200 hover:text-white transition-all'>
                         Load More
                     </button>
                 </div>
@@ -81,8 +81,8 @@ function UpcomingEvents() {
 
 function Filters({children}:{children: React.ReactNode}){
     return (
-        <div className='border border-cc-200 rounded-[50px] px-1 py-1 md:px-6 md:py-3.5'>
-            <select className='font-switzer text-sm font-medium text-cc-300 bg-transparent focus:outline-none pr-1 md:pr-8'>
+        <div className='border border-cc-200 rounded-[50px] px-1 py-1 md:px-3 md:py-2.5 lg:px-6 lg:py-3.5'>
+            <select className='font-switzer text-sm font-medium text-cc-300 bg-transparent focus:outline-none sm:pr-1 md:pr-8'>
                 {children}
             </select>
         </div>
