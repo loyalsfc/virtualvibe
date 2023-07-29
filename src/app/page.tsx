@@ -20,13 +20,13 @@ export default function Home() {
   },[])
 
   return (
-    <>
+    <main>
       <Hero />
       <Search />
       <UpcomingEvents />
       <RecentEvents />
       <Faq />
       <Footer />
-    </>
+    </main>
   )
 }
