@@ -3,7 +3,7 @@ import React from 'react'
 
 function Events({image, date, title}:{image:string, date:string, title:string}) {
     return (
-        <li className='pb-[22px] event-shadow bg-white'>
+        <li data-aos="fade-up" className='pb-[22px] event-shadow bg-white'>
             <div className="relative aspect-[1.55/1] overflow-hidden">
                 <Image
                     src={image}

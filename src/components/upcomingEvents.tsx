@@ -45,7 +45,7 @@ function UpcomingEvents() {
         <section className='pt-12 md:pt-40 pb-14 px-4 md:px-0'>
             <div className="container mx-auto">
                 <div className="max-w-[1118px] mx-auto">
-                    <div className='mb-8 md:mb-20 flex gap-4 md:gap-0 flex-col sm:flex-row justify-between items-center'>
+                    <div data-aos="slide-right" className='mb-8 md:mb-20 flex gap-4 md:gap-0 flex-col sm:flex-row justify-between items-center'>
                         <h2 className='text-xl md:text-3xl lg:text-[2.5rem] font-bold text-cc-300'>UPCOMING EVENTS</h2>
                         <div className='flex gap-1 md:gap-4 lg:gap-5'>
                             <Filters>
@@ -70,7 +70,7 @@ function UpcomingEvents() {
                                 />
                             )})}
                     </ul>
-                    <button className='border-[1.5px] border-cc-200 shadow-btn py-2 md:py-[18px] px-8 sm:px-[45px] font-dm-sans text-cc-300 font-bold text-lg block mx-auto hover:bg-cc-200 hover:text-white transition-all'>
+                    <button data-aos="zoom-out" className='border-[1.5px] border-cc-200 shadow-btn py-2 md:py-[18px] px-8 sm:px-[45px] font-dm-sans text-cc-300 font-bold text-lg block mx-auto hover:bg-cc-200 hover:text-white transition-all'>
                         Load More
                     </button>
                 </div>
